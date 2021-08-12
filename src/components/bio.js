@@ -37,9 +37,9 @@ const Bio = () => {
         layout="fixed"
         formats={["AUTO", "WEBP", "AVIF"]}
         src="../images/wls.jpg"
-        width={50}
-        height={50}
-        quality={95}
+        width={70}
+        height={70}
+        quality={100}
         alt="Profile picture"
       />
       {author?.name && (
@@ -49,6 +49,8 @@ const Bio = () => {
           <a href={`https://instagram.com/${social?.instagram || ``}`}>
             You should follow them on instagram
           </a>
+          <br/> 
+          <a href="about.js">더보기</a>
         </p>
       )}
     </div>
