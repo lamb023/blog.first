@@ -3,8 +3,8 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import imgA from '../images/sunset.jpg';
-import imgB from '../images/brg.jpg';
+import imgA from '../images/logo.png';
+import imgB from '../images/logo.png';
 
 const AboutPage = ({ location, data }) => (
     <Layout location={location} title={data.site.siteMetadata.title}>
