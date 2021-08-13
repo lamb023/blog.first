@@ -58,7 +58,7 @@
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
-  --color-heading-black: rgb(20, 99, 151);
+  --color-heading-black: rgba(241, 0, 209, 0.281);
   --color-accent: #b5d3ee;
 }
 
@@ -75,7 +75,8 @@ html {
   font-size: var(--fontSize-root);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#d3bfd2;
+  background: linear-gradient(to right, rgb(#4f5e7c));
+  
 }
 
 body {
