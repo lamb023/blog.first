@@ -50,7 +50,7 @@ const Bio = () => {
             You should follow them on instagram
           </a>
           <br/> 
-          <a href="about.js">더보기</a>
+          <a href="about">더보기</a>
         </p>
       )}
     </div>
