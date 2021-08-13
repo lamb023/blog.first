@@ -13,11 +13,11 @@ const AboutPage = ({ location, data }) => (
       <div className="aboutstyle">
       <p><img alt="iPhone_01" src={imgB} width='600' height='400'/></p>
       <p>
-          ㅎㅇ<br/>
+          안녕하세요 반갑습니다 저는 최진양입니다 <br/>
           다양한 정보를 공유하는 블로그입니다.
       </p>
-      <p>급변하는 시대에서 필요한 기술을 접목하여 새로운 가치를 창출할 수 있도록 노력합니다.</p>
-      <p>지식을 공유하고 더 나은 방향으로 나아가는 것을 추구합니다.</p>
+      <p>저는 최진양입니다 .</p>
+      <p>앞으로 많이 발전하고 싶습니다.</p>
       <p><img src={imgA} alt="iPhone_11" /></p>
       </div>
     </Layout>
